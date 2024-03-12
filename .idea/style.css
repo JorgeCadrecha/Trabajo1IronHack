@@ -1,0 +1,91 @@
+body {
+    display:grid;
+    grid-template-columns: 1fr 960px 1fr;
+}
+.hgroup a{
+    color:  grey;
+    text-decoration: none;
+}
+.titulo {
+    color:  grey;
+    font-size: 15px;
+}
+.menusup {
+    display: flex;
+    justify-content: flex-end;
+}
+.limenusup{
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+}
+.limenusup a {
+    text-decoration: none;
+    color:  grey;
+}
+.section1{
+    color:  grey;
+    text-align: center;
+}
+.primerarticulo{
+    color:  grey;
+}
+.segundoarticulo{
+    color:  grey;
+}
+.paginaentera {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    width: 60%;
+}
+aside {
+    width: 30%;
+}
+.more {
+    display: flex;
+    justify-content: flex-end;
+}
+.more a {
+    text-decoration: none;
+    color:  orange;
+}
+.section2 {
+    width: 65%;
+}
+.segundoarticulo img {
+    float: left;
+    margin-right: 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.footerfinal {
+    display: flex;
+    justify-content: space-between;
+    color:  grey;
+}
+.u2 {
+    list-style-type: none;
+    padding: 0;
+}
+.u2 li {
+    border-bottom: 1px solid grey;
+    margin-bottom: 7px;
+}
+.u2 li a {
+
+    text-decoration: none;
+    margin-left: 35px;
+    color: black;
+}
+.contacto{
+    color:  orange;
+    text-decoration: none;
+}
+.title{
+    color:  grey;
+}
+.last{
+    color:  grey;
+}
